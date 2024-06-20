@@ -11,6 +11,8 @@
 		FB8BEBE62C24AA4E00FB8EB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8BEBE52C24AA4E00FB8EB5 /* ContentView.swift */; };
 		FB8BEBE82C24AA5000FB8EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8BEBE72C24AA5000FB8EB5 /* Assets.xcassets */; };
 		FB8BEBEB2C24AA5000FB8EB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8BEBEA2C24AA5000FB8EB5 /* Preview Assets.xcassets */; };
+		FB8BEBF22C24AA6000FB8EB5 /* IceCream.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8BEBF12C24AA6000FB8EB5 /* IceCream.swift */; };
+		FB8BEBF82C24AC3700FB8EB5 /* IceCreamDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8BEBF72C24AC3700FB8EB5 /* IceCreamDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		FB8BEBE52C24AA4E00FB8EB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB8BEBE72C24AA5000FB8EB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB8BEBEA2C24AA5000FB8EB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB8BEBF12C24AA6000FB8EB5 /* IceCream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCream.swift; sourceTree = "<group>"; };
+		FB8BEBF72C24AC3700FB8EB5 /* IceCreamDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				FB8BEBE32C24AA4E00FB8EB5 /* IceCreamApp.swift */,
+				FB8BEBF12C24AA6000FB8EB5 /* IceCream.swift */,
+				FB8BEBF72C24AC3700FB8EB5 /* IceCreamDetailView.swift */,
 				FB8BEBE52C24AA4E00FB8EB5 /* ContentView.swift */,
 				FB8BEBE72C24AA5000FB8EB5 /* Assets.xcassets */,
 				FB8BEBE92C24AA5000FB8EB5 /* Preview Content */,
@@ -139,6 +145,8 @@
 			files = (
 				FB8BEBE62C24AA4E00FB8EB5 /* ContentView.swift in Sources */,
 				FB8BEBE42C24AA4E00FB8EB5 /* IceCreamApp.swift in Sources */,
+				FB8BEBF82C24AC3700FB8EB5 /* IceCreamDetailView.swift in Sources */,
+				FB8BEBF22C24AA6000FB8EB5 /* IceCream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

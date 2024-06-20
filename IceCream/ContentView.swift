@@ -8,14 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var iceCreams = [
+        IceCream(name: "Vanilla"),
+        IceCream(name: "Chocolate"),
+        IceCream(name: "Mint")
+    ]
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            List($iceCreams) { $iceCream in
+                NavigationLink(destination: {
+                    IceCreamDetailView(iceCream: $iceCream)
+                }, label: {
+                    HStack {
+                        Text(iceCream.name)
+                        Text(iceCream.isLiked.description)
+                    }
+                })
+            }
+            .navigationTitle("IceCreams")
         }
-        .padding()
     }
 }
 
