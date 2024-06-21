@@ -13,6 +13,7 @@
 		FB8BEBEB2C24AA5000FB8EB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8BEBEA2C24AA5000FB8EB5 /* Preview Assets.xcassets */; };
 		FB8BEBF22C24AA6000FB8EB5 /* IceCream.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8BEBF12C24AA6000FB8EB5 /* IceCream.swift */; };
 		FB8BEBF82C24AC3700FB8EB5 /* IceCreamDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8BEBF72C24AC3700FB8EB5 /* IceCreamDetailView.swift */; };
+		FBCE06C02C259B13006D6CCE /* IceCreamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE06BF2C259B13006D6CCE /* IceCreamViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		FB8BEBEA2C24AA5000FB8EB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB8BEBF12C24AA6000FB8EB5 /* IceCream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCream.swift; sourceTree = "<group>"; };
 		FB8BEBF72C24AC3700FB8EB5 /* IceCreamDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamDetailView.swift; sourceTree = "<group>"; };
+		FBCE06BF2C259B13006D6CCE /* IceCreamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				FB8BEBE32C24AA4E00FB8EB5 /* IceCreamApp.swift */,
 				FB8BEBF12C24AA6000FB8EB5 /* IceCream.swift */,
+				FBCE06BF2C259B13006D6CCE /* IceCreamViewModel.swift */,
 				FB8BEBF72C24AC3700FB8EB5 /* IceCreamDetailView.swift */,
 				FB8BEBE52C24AA4E00FB8EB5 /* ContentView.swift */,
 				FB8BEBE72C24AA5000FB8EB5 /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				FB8BEBE42C24AA4E00FB8EB5 /* IceCreamApp.swift in Sources */,
 				FB8BEBF82C24AC3700FB8EB5 /* IceCreamDetailView.swift in Sources */,
 				FB8BEBF22C24AA6000FB8EB5 /* IceCream.swift in Sources */,
+				FBCE06C02C259B13006D6CCE /* IceCreamViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

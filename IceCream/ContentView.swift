@@ -8,23 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var iceCreams = [
-        IceCream(name: "Vanilla"),
-        IceCream(name: "Chocolate"),
-        IceCream(name: "Mint")
-    ]
+    @StateObject private var ViewModel = IceCreamViewModel()
 
     var body: some View {
         NavigationView {
-            List($iceCreams) { $iceCream in
-                NavigationLink(destination: {
-                    IceCreamDetailView(iceCream: $iceCream)
-                }, label: {
-                    HStack {
-                        Text(iceCream.name)
-                        Text(iceCream.isLiked.description)
-                    }
-                })
+            List {
+                ForEach($ViewModel.iceCreams) { $iceCream in
+                    NavigationLink(destination: IceCreamDetailView(iceCream: $iceCream), label: {
+                        HStack {
+                            Text(iceCream.name)
+                            if iceCream.isLiked {
+                                Spacer()
+                                Image(systemName: "heart.fill").foregroundColor(.red)
+                            }
+                        }
+                    })
+                }
             }
             .navigationTitle("IceCreams")
         }
